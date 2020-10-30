@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body {
+      width: 100%;
+}
+.content{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.first{
+
+}
+a{
+  text-decoration: none;
+}
+table {
+  width: 300px;
+}
+
+thead td {
+  background-color: #000;
+  color: #fff;
+}
+
+table tbody tr:nth-of-type(even) td {
+  background-color: rgba(235, 120, 11, 0.7);
+}
+table tbody tr:nth-child(1) td,
+table tbody tr:nth-child(2) td,
+table tbody tr:nth-child(3) td,
+table tbody tr:nth-child(5) td,
+table tbody tr:nth-child(7) td,
+table tbody tr:nth-child(9) td
+{
+  color: red;
+}
+
+.banner li {
+  width: 500px;
+  vertical-align: top;
+}
+.second input {
+  width: 160px;
+  border: 2px solid rgb(150, 30, 50);
+  transition: border-color, width 0.5s ease-in 0.2s;
+}
+.second input:focus {
+  width: 300px;
+  border-color:yellow;
+}
+.lb{
+  position: relative;
+  width: 500px;
+  height: 280px;
+  background-color: gray;
+  overflow: hidden;
+}
+.lb ul{
+  width: 2000px;
+  height: 280px;
+  position: relative;
+  animation: lbt 1s infinite;
+}
+.lb ul li{
+  float: left;
+}
+.pointer {
+  position: relative;
+  width: 500px;
+  height: 280px;
+}
+.banner {
+  position: absolute;
+  right: 2px;
+  bottom:0px;
+  display: flex;
+  justify-content: end;
+}
+.banner a {
+  text-align: center;
+  line-height: 45px;
+  width: 45px;
+  height: 45px;
+  border-radius: 2px;
+  margin-left: 2px;
+  background-color:rgba(255, 255, 255,0.5);
+}
+/*@keyframes lbt{
+  0%{
+    right: 0;
+  }
+  50%{
+    right: 250px;
+  }
+  100%{
+    right:500px;
+  }
+}*/
+img{
+  width: 500px;
+  height: 280px;
+}
+.at{
+  display: none;
+}
+:target{
+  display: block;
+}

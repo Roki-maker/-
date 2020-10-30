@@ -1,0 +1,239 @@
+body{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+}
+
+.container{   
+    z-index: 2;  
+    position: relative; 
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+
+.top{ margin: 0;
+    padding: 0; 
+     top: 0;
+      width: 100%;
+      height: 60px;
+      background-color:rgb(0,0, 0, 0.85);
+      font-size: 14px;
+      overflow: hidden;
+    }
+.top img{
+    float: left; 
+    width: 158px;
+    height: 50px;
+    margin-top: 0px;
+}
+.top ul{float: right;
+}
+.top li{float: right;
+    margin-right: 24px;
+    line-height:30px ;
+}
+.top a{color:#eee;
+}
+.top a:hover{color: gray;
+}
+#buttom{width: 100%;
+    height: 70px;
+    background-color:rgb(0,0, 0, 0.85);
+}
+#buttom p{color: white; text-align: center;}
+
+#pas1{
+    background-color: #eee;
+    overflow-y: scroll;
+    margin-top:20px;
+    margin-left: 20px;
+    padding: 18px;
+    height: 812px;
+   /* width:858px;*/
+   width: 60%;
+    border: 1px solid #999;
+    border-right: 3px solid rgb(132, 132, 132);
+    border-bottom: 3px solid rgb(132, 132, 132);
+}
+#pas1 h1{
+    margin: 0;
+}
+#pas1 h2{
+    color: rgb(127, 122, 128);
+}
+#pas1 h5{
+    color: rgb(115, 116, 108);
+}
+#pas1 img{
+width: 300px;
+height: 250px;
+}
+
+
+#pas2{    
+    overflow-y: scroll;
+    background-color: #eee;
+    margin-top:20px;
+    margin-left: 20px;
+    padding: 18px;
+    height: 812px;
+    /*width:858px;*/
+    width: 60%;
+    border: 1px solid #999;
+    border-right: 3px solid rgb(132, 132, 132);
+    border-bottom: 3px solid rgb(132, 132, 132);
+}
+#pas2 h2{
+    color: rgb(127, 122, 128);
+}
+#pas2 h5{
+    color: rgb(115, 116, 108);
+}
+#pas2 img{
+    width: 300px;
+    height: 250px;
+}
+
+#pas3{
+    overflow:scroll;
+    background-color: #eee;
+    margin-top:20px;
+    margin-left: 20px;
+    padding: 18px;
+    height: 16%;
+    /*width:858px;*/
+    width: 60%;
+    border: 1px solid #999;
+    border-right: 3px solid rgb(132, 132, 132);
+    border-bottom: 3px solid rgb(132, 132, 132);
+}
+
+.box{
+    float: left;
+    border: 1px solid #999;
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+}
+.box img{
+    width: 100%;
+    height: 100%;
+}
+#pas4{
+    background-color: #eee;
+    overflow-y: scroll;
+    margin-top:20px;
+    margin-left: 20px;
+    padding: 18px;
+    height: 425px;
+    /*width:858px;*/
+    width: 60%;
+    border: 1px solid #999;
+    border-right: 3px solid rgb(132, 132, 132);
+    border-bottom: 3px solid rgb(132, 132, 132);
+}
+#pas4 h2{
+    color: rgb(127, 122, 128);
+}
+#pas4 h5{
+    color: rgb(115, 116, 108);
+}
+#pas4 li{font-weight: bold;}
+
+table{
+    border-collapse: collapse;
+}
+.list td{width: 1860px;}
+.list th{background-color: rgb(0,0, 0, 0.85);
+    color: white;
+}
+.foot{
+
+    border: #999; 
+    background:rgb(147, 152, 155);
+}
+.list button{width: 100%;
+}
+
+
+
+.fow{
+    font-weight: bold;
+}
+#side-inside{
+    z-index: 1;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 364px;
+    height: 498px; 
+    position: fixed;
+    top: 60px;
+    margin:20px;
+    right: 0;
+    bottom: 0;
+    padding-left: 22px;
+    background-color: #eee;
+    border:1px solid #999;
+    border-right: 3px solid rgb(132, 132, 132);
+    border-bottom: 3px solid rgb(132, 132, 132);
+    font-size: 12px;
+}
+#side-inside img{
+    position: relative;
+    float: left;
+    left: -5px;
+}
+.st1{
+    color: rgb(147, 152, 155);
+    position: relative;
+    left: 100px;
+}
+.st2{
+    color: rgb(147, 152, 155);
+    position: relative;
+    left: 100px;
+}
+.x{
+    text-align: center;
+    width: 130px;
+    height: 15px;
+}
+.x1{
+    text-align: center;
+    width: 130px;
+    height: 15px;
+}
+.x2{
+    text-align: center;
+    width: 130px;
+    height: 15px;
+}
+.x3{
+    position: relative;
+    left: 100px;
+}
+.x4{
+    position: relative;
+    left: 100px;
+}
+.bt{
+    width: 322px;
+    height:42px;
+    text-align: center;
+}
+.y{
+    text-align: center;
+}
+.bstyle{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgb(51, 85, 208);
+    color: #eee;
+    
+}
