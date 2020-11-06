@@ -1,0 +1,98 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.container{
+
+}
+.head{
+    height: 80px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.head .container{
+
+}
+.head .container ul{
+    list-style: none;
+    float: right;
+}
+.head .container li{
+    display: inline;
+    margin-right: 19px;
+    font-weight: bold;
+}
+.head .container a{
+    color: #000;
+}
+.head .container button{
+    border: none;
+    background-color: rgb(51, 133, 255);
+    color: white;
+}
+
+.main-body{
+    padding: 0;
+    margin: 0;
+}
+.main-body .container{
+
+}
+#m{
+    width: 270px;
+    height: 129px;
+}
+#q1{
+    border: 2px solid #c4c7ce;
+    border-radius: 10px 0 0 10px;
+    border-right: none;
+    background: #fff;
+    overflow: hidden;
+    width: 548px;
+    height: 44px;
+    font-size: 16px;
+    outline: 0;
+    box-shadow: none;
+    margin: 0;
+}
+#btn{
+    width: 108px;
+    height: 49px;
+    line-height: 45px;
+    font-weight: 400;
+    background-color: #4e6ef2;
+    border-radius: 0 10px 10px 0;
+    font-size: 17px;
+    color: white;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+}
+#m1{
+    margin-top: 300px;
+}
+.p1{
+    font-size: 18px;
+}
+.p2{
+    color: rgb(153, 153, 153);
+}
+.u1 li{
+    font-size: 12px;
+    padding-right: 10px;
+    display: inline;
+}
+.u1 a{
+    color: rgb(153, 153, 153);
+}
+#p3{
+    font-size: 12px;
+    color: rgb(153, 153, 153);
+}
+#p3 a{
+    color: rgb(153, 153, 153);
+}
